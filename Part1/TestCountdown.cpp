@@ -28,7 +28,7 @@ int main() {
     }
     
     {
-        cout << "\n\nCountdown numbers game: {1,2,3,4,5,6}, target 123 (can be solved by e.g. 4 5 6 * * * 3 + )\n";
+        cout << "\n\nCountdown numbers game: {1,2,3,4,5,6}, target 123 (can be solved by e.g. 4 5 6 * *  3 + )\n";
         
         vector<int> numbers{1,2,3,4,5,6};
         CountdownSolution answer = solveCountdownProblem(numbers, 123);
